@@ -1,7 +1,8 @@
 import './App.css';
 import {CORE_CONCEPTS} from './data'
-import { Header } from './components/Header';
-import { CoreConcepts } from './components/CoreConcepts';
+import { Header } from './components/Header/Header';
+import { CoreConcepts } from './components/CoreComponent/CoreConcepts';
+import { TabButton, TabLabelButton } from './components/TabButton/TabButton';
 
 function App() {
   return (
@@ -16,6 +17,14 @@ function App() {
             <CoreConcepts {...CORE_CONCEPTS[2]}/>
             <CoreConcepts {...CORE_CONCEPTS[3]}/>
           </ul>
+        </section>
+        <section id='examples'>
+          <h2>Examples</h2>
+          <menu>
+            {/* children prop: content between component tag */}
+            <TabButton>Component</TabButton>
+            <TabLabelButton label='Component2'></TabLabelButton>
+          </menu>
         </section>
       </main>
     </div>

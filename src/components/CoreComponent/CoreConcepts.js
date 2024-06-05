@@ -1,4 +1,5 @@
-import logo from '../logo.svg';
+import logo from '../../logo.svg';
+import './CoreComponent.css';
 
 export function CoreConcepts(props){
     return (
