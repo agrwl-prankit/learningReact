@@ -1,35 +1,7 @@
-import logo from './logo.svg';  // setting html attribute dynamically
 import './App.css';
 import {CORE_CONCEPTS} from './data'
-
-const reactDescriptions = ['Fundamental', 'Crucial', 'Core']
-
-function getRandomInt(max) {
-  return Math.floor(Math.random()* (max+1));
-}
-
-// custom component - function, start with capital letter, return jsx code
-function Header() {
-  return (
-    <header>
-        <img src={logo} className="App-logo" alt="logo" />
-        {/* use dynamic value */}
-        <p>
-          {reactDescriptions[getRandomInt(2)]} react concepts you will need for almost any app you are going to build !
-        </p>
-      </header>
-  )
-}
-
-function CoreConcepts(props){
-  return (
-    <li>
-      <img src={logo} alt='...'/>
-      <h3>{props.title}</h3>
-      <p>{props.description}</p>
-    </li>
-  )
-}
+import { Header } from './components/Header';
+import { CoreConcepts } from './components/CoreConcepts';
 
 function App() {
   return (
