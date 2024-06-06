@@ -1,9 +1,10 @@
-export function Tab({children, buttons}){
+export function Tab({children, buttons, buttonContainer}){
+    const ButtonContainer = buttonContainer   // must be capital case
     return (
         <>
-        <menu>
+        <ButtonContainer>
             {buttons}
-        </menu>
+        </ButtonContainer>
         {children}
         </>
     )
