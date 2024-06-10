@@ -17,3 +17,18 @@ This project is a simple implementation of the classic Tic-Tac-Toe game using Re
 - Avoid Intersecting State
 - Derive State from Props
 - Sharing State Across Components
+
+## Investment Calculator React Project
+
+### Introduction
+
+This project is a simple implementation of practicing React where the website visitors can use to calculate
+the future value for the given investment parameter. The primary purpose of this project is to learn and apply various React concepts, including state management, two-way data binding, lifting state up, and more.
+
+### Concepts Covered
+
+- Build, configure and combine components
+- Manage application State
+- Fetch and store user input and output list and conditional content
+- Sharing State Across Components
+- two-way data binding
