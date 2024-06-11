@@ -4,14 +4,16 @@ import ReactDOM from 'react-dom/client';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import TicTacToeApp from './tic-tac-toe/App';
-import InvestmentCalculatorApp from './investment-calculator/App'
+// import InvestmentCalculatorApp from './investment-calculator/App'
+import ReactArt from './reactart-styling/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <TicTacToeApp/> */}
-    <InvestmentCalculatorApp/>
+    {/* <InvestmentCalculatorApp/> */}
+    <ReactArt />
   </React.StrictMode>
 );
 

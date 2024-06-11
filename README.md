@@ -32,3 +32,18 @@ the future value for the given investment parameter. The primary purpose of this
 - Fetch and store user input and output list and conditional content
 - Sharing State Across Components
 - two-way data binding
+
+## ReactArt React Project
+
+### Introduction
+
+This project is a simple implementation of how to style react components. The primary purpose of this project is to learn and apply various React concepts, including static styles, dynamic styles,
+styling with vanilla css and tailwind css, and more.
+
+### Concepts Covered
+
+- Styling with vanilla css
+- Scoping styles with css modules
+- Css-in-js styling with styles components
+- Styling with tailwind css
+- Static and dynamic styles
