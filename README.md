@@ -47,3 +47,17 @@ styling with vanilla css and tailwind css, and more.
 - Css-in-js styling with styles components
 - Styling with tailwind css
 - Static and dynamic styles
+
+## refs and portals
+
+### Introduction
+
+The primary purpose of this project is to learn and apply various React concepts, including refs,
+portals, forwardRef, useImperativeHandle, useRef, and more.
+
+### Concepts Covered
+
+- Accessing dom elements by refs
+- Managing values with refs
+- Exposing component api
+- Detach dom rendering with portals

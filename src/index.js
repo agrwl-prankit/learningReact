@@ -5,7 +5,8 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 // import TicTacToeApp from './tic-tac-toe/App';
 // import InvestmentCalculatorApp from './investment-calculator/App'
-import ReactArt from './reactart-styling/App';
+// import ReactArt from './reactart-styling/App';
+import RefAndPortalApp from './ref-and-portal/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,8 @@ root.render(
     {/* <App /> */}
     {/* <TicTacToeApp/> */}
     {/* <InvestmentCalculatorApp/> */}
-    <ReactArt />
+    {/* <ReactArt /> */}
+    <RefAndPortalApp/>
   </React.StrictMode>
 );
 
