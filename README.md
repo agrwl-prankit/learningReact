@@ -61,3 +61,17 @@ portals, forwardRef, useImperativeHandle, useRef, and more.
 - Managing values with refs
 - Exposing component api
 - Detach dom rendering with portals
+
+## Advanced State Management
+
+### Introduction
+
+The primary purpose of this project is to learn and apply various React concepts, including React's Context
+API, useReducer, and more.
+
+### Concepts Covered
+
+- The problem of shared state: Prop Drilling
+- Component composition
+- Sharing state with Context
+- Manage complex state with Reducers
