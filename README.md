@@ -75,3 +75,16 @@ API, useReducer, and more.
 - Component composition
 - Sharing state with Context
 - Manage complex state with Reducers
+
+## Side Effects
+
+### Introduction
+
+The primary purpose of this project is to learn the handling of side effects and working with the useEffect() hook.
+
+### Concepts Covered
+
+- Side Effects and useEffects
+- Effects and dependencies
+- When not to use useEffect
+- Manage complex state with Reducers

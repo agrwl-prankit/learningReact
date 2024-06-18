@@ -7,7 +7,8 @@ import reportWebVitals from './reportWebVitals';
 // import InvestmentCalculatorApp from './investment-calculator/App'
 // import ReactArt from './reactart-styling/App';
 // import RefAndPortalApp from './ref-and-portal/App';
-import ElegantContextApp from './elegant-context/App';
+// import ElegantContextApp from './elegant-context/App';
+import PlacePickerApp from './place-picker/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     {/* <InvestmentCalculatorApp/> */}
     {/* <ReactArt /> */}
     {/* <RefAndPortalApp/> */}
-    <ElegantContextApp />
+    {/* <ElegantContextApp /> */}
+    <PlacePickerApp/>
   </React.StrictMode>
 );
 
