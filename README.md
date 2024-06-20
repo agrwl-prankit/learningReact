@@ -102,3 +102,16 @@ and optimization technique
 - Closure look at keys
 - State scheduling and state batching
 - Optimizing react with MillionJS
+
+## Class based component
+
+### Introduction
+
+The primary purpose of this project is to learn class based component in react.
+
+### Concepts Covered
+
+- What is class based component and why to use it
+- Error boundaries
+- Component lifecycle
+- State and Events
