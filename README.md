@@ -88,3 +88,17 @@ The primary purpose of this project is to learn the handling of side effects and
 - Effects and dependencies
 - When not to use useEffect
 - Manage complex state with Reducers
+
+## Behind the scenes
+
+### Introduction
+
+The primary purpose of this project is to learn and understand how react works behind the scenes
+and optimization technique
+
+### Concepts Covered
+
+- How react updated the dom
+- Closure look at keys
+- State scheduling and state batching
+- Optimizing react with MillionJS
